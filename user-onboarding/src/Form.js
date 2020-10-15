@@ -37,7 +37,7 @@ function Form(props){
                 <label>Terms of Service
                     <input onChange={onChange} checked={form.terms} name='terms' type='checkbox' />
                 </label>
-                <button disabled={disabled}>Submit</button>
+                <button id='submitBtn' disabled={disabled}>Submit</button>
             </form>
         </div>
     )
